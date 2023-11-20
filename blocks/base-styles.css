@@ -19,3 +19,17 @@
   box-sizing: border-box;
   font-size: 16px;
 }
+
+.highligh-text {
+  background-image: linear-gradient(to right, #FCB045, #FF3F78);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.highligh-text-short {
+  background-image: linear-gradient(to right, #FCB045, rgb(213, 24, 74));
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}

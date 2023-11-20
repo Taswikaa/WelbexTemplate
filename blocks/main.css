@@ -1,0 +1,30 @@
+.main {
+  padding: 2.75rem 0 3.5rem;
+  background-image: url('../images/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main__container {
+  padding-left: .9rem;
+}
+
+.main__title {
+  font-size: 2.25rem;
+  font-weight: 400;
+  margin: 0 0 1rem;
+}
+
+.main__title_highligh {
+  font-weight: 700;
+  margin-top: 0.25rem;
+  letter-spacing: 0.5px;
+}
+
+.main__subtitle {
+  font-size: 1.125rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  margin: 0 0 2.8rem;
+  line-height: 1.35rem;
+}

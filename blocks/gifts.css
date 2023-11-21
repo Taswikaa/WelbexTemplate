@@ -1,0 +1,43 @@
+.gifts__title {
+  font-size: 1.125rem;
+  max-width: 17rem;
+  font-weight: 500;
+  margin: 0 0 1.25rem;
+  line-height: 1.4rem;
+}
+
+.gifts__title_accent {
+  font-weight: 700;
+}
+
+.gifts__title_accent-color {
+  color: #FCB045;
+}
+
+.gifts__list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: .95rem;
+  column-gap: .35rem;
+  max-width: 16.77rem;
+}
+
+.gifts__item {
+  font-size: 0.85rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 1rem;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: .3px;
+  min-width: 6.5rem;
+}
+
+.gifts__item::before {
+  content: '';
+  position: absolute;
+  top: 35%;
+  left: -.9rem;
+  width: 10px;
+  height: 1px;
+  background-image: linear-gradient(to right, #FCB045, #FF3F78);
+}

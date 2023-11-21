@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 1.3rem 0;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  min-width: 18rem;
+}
+
+.header__link {
+  text-transform: uppercase;
+  font-size: .75rem;
+}

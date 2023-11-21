@@ -19,11 +19,7 @@
   flex-wrap: wrap;
   row-gap: .95rem;
   column-gap: .35rem;
-  max-width: 20rem;
-  align-content: center;
-  justify-items: center;
-  justify-items: center;
-  align-items: center;
+  max-width: 16.77rem;
 }
 
 .gifts__item {

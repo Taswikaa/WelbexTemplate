@@ -55,3 +55,38 @@
   font-size: .75rem;
   font-family: 'Montserrat', sans-serif;
 }
+
+@media (min-width: 425px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding-bottom: 5.5rem;
+    margin-top: auto;
+  }
+
+  .footer__container {
+    display: flex;
+    position: relative;
+    min-width: 100%;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+  }
+
+  .footer__content {
+    padding: 0;
+  }
+
+  .footer__info {
+    position: absolute;
+    right: 1.5rem;
+    bottom: -4rem;
+    padding: 0;
+  }
+}
